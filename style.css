@@ -1,3 +1,4 @@
+/*----body-----*/
 body{
     font-family: 'Merriweather', serif;
     background-color: #AAAAAA;
@@ -5,14 +6,16 @@ body{
 .flexible-container{
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 10%;
 }
+/*------header-----*/
 .header-title{
     color: #3A3A3A;
     font-size: 24px;
     font-weight: bold;
     padding: 5%;
 }
+/*------Frist Section-----*/
 .blog{
     width: 60%;
     padding-right: 5%;
@@ -41,6 +44,7 @@ body{
     padding-right: 2%;
     padding-bottom: 1%;
 }
+/*------Second Section-----*/
 .section-title{
     color: #3A3A3A;
     font-size: 24px;
@@ -87,6 +91,24 @@ body{
     padding-right: 10%;
 
 }
+/*------Third Section-----*/
+#enquery-form{
+    width:60%;
+    background-color: darkcyan;
+    padding: 5%;
+    border-radius: 5px;
+}
+.image-gear{
+    width: 40%;
+    padding: 10%;
+   
+
+}
+.image-gear:hover{
+    transform: scale(1.5);
+    transition: 5s;
+}
+/*-------Footer-----*/
 .footer-info{
     color: whitesmoke;
     background-color: darkblue;
@@ -95,30 +117,3 @@ body{
     padding-right: 10%;
     padding-bottom: 5%;
     padding-left: 10%;
-    
-   
-}
-#enquery-form{
-    background-color: darkcyan;
-    padding: 5%;
-}
-.image-gear{
-    width: 50%;
-    padding-top: 10%;
-    padding-left: 5%;
-
-}
-.image-gear:hover{
-    transform: scale(1.6);
-    transition: 5s;
-}
-
-
-
-    
-
-
-
-
-
-   
